@@ -251,13 +251,11 @@ def try_letter(letter):
                     if errors == error_limit:
                         label_output.config(text="GAME OVER")
                         label_user_word.config(text=word)
-                        disp_info(word_str)
 
                 # if user_word matches with word to find, display message for user.
                 if user_word == word:
                     label_output.config(text="You won!")
                     label_user_word.config(text=word)
-                    disp_info(word_str)
     
     except:
         print("something went wrong...")

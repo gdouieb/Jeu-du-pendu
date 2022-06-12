@@ -34,6 +34,7 @@ def creation_X(n):
 
 #saisi des lettres par l'utilisateur
 def saisi_user(nbr_chance):
+
     while nbr_chance > 0 and nbr_chance <6:
         a=input ('Vous avez '+str(nbr_chance)+' Chances:')
         print("lettre saisie:",a)  
@@ -72,7 +73,7 @@ def test_appartenance(a2):
     return nbr_chance 
 
 selectMot()  
-nbr_chance = saisi_user(nbr_chance)
+saisi_user(nbr_chance)
 
 
 
